@@ -24,7 +24,7 @@ app.get('/index', function(req,res){
     res.render('index');
 });
 
-app.get('/logged', function(req,res){
+app.get('/auth/google', function(req,res){
     res.render('logged', {
         name: "John"
     });
